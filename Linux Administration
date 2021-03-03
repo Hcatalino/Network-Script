@@ -1,0 +1,9 @@
+#!/bin/bash
+#The line above was to let the terminal that the program I'm going to running is a bash script.
+
+read -p " Date and purpose: "
+#The line above will prompt the user for his input, the way to manage this was by putting read -p which will read anything the user inputs after the Date and Purpose line.
+
+echo "$REPLY" >> Network
+#The line above will then read the reply by using the $REPLY command and then it will append it to a file called Network , it will create a new file called Network if you dont have a Network file.
+
